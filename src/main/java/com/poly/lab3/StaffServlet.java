@@ -38,7 +38,7 @@ public class StaffServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("Hello");
+		System.out.println("Hello thanh trung dap trai");
 		request.getRequestDispatcher("/views/lab3/form-register.jsp").forward(request, response);
 	}
 
