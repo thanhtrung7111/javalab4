@@ -61,7 +61,7 @@ public class StaffServlet extends HttpServlet {
 			Staff staff = new Staff();
 			BeanUtils.populate(staff, request.getParameterMap());
 			staff.setPhoto(photoFile.getName());
-			System.out.println(staff);
+			System.out.println("Hello world");
 			request.setAttribute("staff", staff);
 		} catch (Exception e) {
 			e.printStackTrace();
