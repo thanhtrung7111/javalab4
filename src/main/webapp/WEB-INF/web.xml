@@ -8,14 +8,5 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <description></description>
-    <display-name>UploadStudent</display-name>
-    <servlet-name>UploadStudent</servlet-name>
-    <servlet-class>com.poly.lab3.UploadStudent</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>UploadStudent</servlet-name>
-    <url-pattern>/UploadStudent</url-pattern>
-  </servlet-mapping>
+
 </web-app>

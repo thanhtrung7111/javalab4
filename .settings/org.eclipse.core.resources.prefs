@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
 encoding//src/main/webapp/views/lab2/form-register.jsp=UTF-8
-encoding//src/main/webapp/views/lab3/form-student.jsp=UTF-8
+encoding//src/main/webapp/views/lab3/form-login.jsp=UTF-8
+encoding//src/main/webapp/views/lab3/form-sendmail.jsp=UTF-8
 encoding//src/main/webapp/views/param/form.jsp=UTF-8
