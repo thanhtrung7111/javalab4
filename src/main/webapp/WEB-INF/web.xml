@@ -8,5 +8,34 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-
+  <servlet>
+    <description></description>
+    <display-name>UserServlet</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.poly.lab4.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DetailServlet</display-name>
+    <servlet-name>DetailServlet</servlet-name>
+    <servlet-class>com.poly.lab4.DetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DetailServlet</servlet-name>
+    <url-pattern>/DetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ListServlet</display-name>
+    <servlet-name>ListServlet</servlet-name>
+    <servlet-class>com.poly.lab4.ListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListServlet</servlet-name>
+    <url-pattern>/ListServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

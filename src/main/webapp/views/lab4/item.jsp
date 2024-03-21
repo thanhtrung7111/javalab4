@@ -1,12 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="col-4">
+	<div class="card">
+		<img alt="" src="${param.img}"
+			style="height: 300px; width: 100%">
+		<div class="card-footer">${param.name}</div>
+	</div>
+</div>
